@@ -15,21 +15,27 @@ body {
 
 /* header section// */
 header {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   text-align: center;
   padding: 50px 0;
+  background-image: url(image/coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
 }
 header h1 {
   font-family: "Playfair Display SC", "serif";
-  color: #49281a;
+  color: #f0e2c5;
   margin-bottom: 50px;
   font-size: 3rem;
+  text-shadow: 3px 3px 3px #000000;
 }
 header p {
   font-family: "Lato", sans-serif;
-  color: #49281a;
+  color: #f0e2c5;
   margin-bottom: 20px;
   font-size: 1.2rem;
+  text-shadow: 2px 2px 2px #000000;
 }
 
 header a {
@@ -46,17 +52,20 @@ header a {
 
 /* nav section  */
 nav {
-  /* border: 2px solid #000; */
+  border: 2px solid #000;
+  background-color: #49281a;
   text-align: center;
-  padding: 20px 0;
+  /* padding: 20px 0; */
+  position: sticky;
+  top: 0;
 }
 nav a {
   display: inline-block;
-  width: 150px;
-  height: 50px;
+  /* width: 150px;
+  height: 50px; */
   line-height: 40px;
   font-family: "Lato", sans-serif;
-  background-color: #49281a;
+  /* background-color: #49281a; */
   color: #f0e2c5;
   /* padding: 10px 20px; */
   margin-right: 20px;
@@ -77,7 +86,7 @@ footer {
 #contact h2 {
   font-family: "Playfair Display SC", serif;
   color: #49281a;
-  margin-bottom: 20px;
+  /* margin-bottom: 10px; */
   font-size: 2rem;
 }
 .our-menu {
@@ -89,6 +98,7 @@ footer {
 .our-menu h3 {
   font-family: "Lato", sans-serif;
   color: #49281a;
+  margin-top: 20px;
   margin-bottom: 20px;
   text-align: left;
 }
@@ -102,12 +112,13 @@ footer {
   display: inline-block;
 }
 .card-img-top {
+  height: 300px;
   max-width: 100%;
   border-radius: 8px;
 }
 .card-body {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
 .card-title {
   padding: 10px 0;
@@ -173,10 +184,23 @@ form div {
 }
 
 /* footer section// */
+footer {
+  position: relative;
+}
 footer p {
   font-family: "Lato", sans-serif;
   color: #49281a;
   margin-bottom: 20px;
   font-size: 0.9rem;
   text-align: center;
+}
+footer a {
+  position: absolute;
+  bottom: 70px;
+  left: 60px;
+  color: #f0e2c5;
+  border: 1px solid #49281a;
+  padding: 10px;
+  border-radius: 40%;
+  background-color: #49281a;
 }
