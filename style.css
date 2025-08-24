@@ -184,9 +184,7 @@ form div {
 }
 
 /* footer section// */
-footer {
-  position: relative;
-}
+
 footer p {
   font-family: "Lato", sans-serif;
   color: #49281a;
@@ -195,12 +193,12 @@ footer p {
   text-align: center;
 }
 footer a {
-  position: absolute;
-  bottom: 70px;
-  left: 60px;
+  position: fixed;
+  bottom: 100px;
+  right: 60px;
   color: #f0e2c5;
   border: 1px solid #49281a;
   padding: 10px;
-  border-radius: 40%;
+  border-radius: 50% 50%;
   background-color: #49281a;
 }
