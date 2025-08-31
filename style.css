@@ -123,17 +123,19 @@ footer {
   margin-bottom: 20px;
   text-align: left;
 }
-
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .card {
   border: 1px solid black;
   border-radius: 8px;
   background-color: #f0e2c5;
   width: 250px;
   padding: 10px;
-  display: inline-block;
 }
 .card-img-top {
-  height: 300px;
   max-width: 100%;
   border-radius: 8px;
 }
@@ -141,6 +143,7 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
 .card-title {
   padding: 10px 0;
 }
